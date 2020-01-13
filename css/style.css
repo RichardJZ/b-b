@@ -1675,9 +1675,18 @@ textarea.form-control {
 
 }
 
+
+.grid--hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  place-items: start;
+}
+ 
+
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 50% 50%;
   place-items: start;
 }
@@ -1698,6 +1707,36 @@ textarea.form-control {
   padding-bottom: calc(100% / (var(--aspect-ratio)));
 }
 
+
+.container--hero-images{
+    width:80%;
+    margin: 120px auto;
+
+}
+
+#boxA{
+          background-image: url(../images/wohnzimmer_kh.jpg);
+        background-size: cover;
+        grid-row:1/2;
+        grid-column:3/4;
+
+}
+    
+  #boxB{
+          background-image: url(../images/ziege.jpg);
+        background-size: cover;
+        grid-row:1/2;
+        grid-column:1/2;
+
+}
+    
+    #boxC{
+        background-image: url(../images/wohnzimmer_kh.jpg);
+        background-size: cover;
+        grid-row:1/2;
+        grid-column:3/4;
+
+}
     #box1{
         background-image: url(../images/wohnzimmer_kh.jpg);
         background-size: cover;
@@ -1722,6 +1761,31 @@ textarea.form-control {
 
 }
     
+
+ #box4{
+        background-image: url(../images/wohnzimmer_kh.jpg);
+        background-size: cover;
+        grid-row:1/2;
+        grid-column:3/4;
+
+}
+    
+  #box4{
+        background-image: url(../images/ziege.jpg);
+        background-size: cover;
+        grid-row:1/2;
+        grid-column:1/2;
+
+}
+    
+    #box5{
+        background-image: url(../images/zp-see.jpg);
+        background-size: cover;
+         grid-row:1/2;
+        grid-column:2/3;
+
+}
+
     .container--images{
         width:62%;
         margin:auto;
