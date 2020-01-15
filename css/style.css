@@ -248,6 +248,10 @@ header .navbar.navbar-light .nav-link.active {
   padding: 0;
 }
 
+.media-body{
+    padding:30px;
+
+}
 .room .media-body .room-specs li {
   display: inline-block;
   list-style: none;
@@ -1698,8 +1702,25 @@ textarea.form-control {
   grid-template-rows: 50% 50%;
   place-items: start;
 }
-    
-    
+
+    .pc-view{
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%;
+  place-items: start;
+
+}
+
+     .grid-featured-rooms{
+display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat( 8, minmax(50px, 1fr) )
+   repeat( 6, minmax(50px, 1fr) );
+  padding-left:15px;
+  padding-right:15px;
+  grid-column-gap: 30px;
+  width:100%;
+}   
 .grid > * {
   background: orange;
   width: 100%;
@@ -1791,7 +1812,33 @@ textarea.form-control {
 
     
      
-    #box5{
+    #box7{
+        background-image: url(../images/zp-see.jpg);
+        background-size: cover;
+         grid-row:1/2;
+        grid-column:1/2;
+
+}
+
+
+
+  #box8{
+        background-image: url(../images/zp-see.jpg);
+        background-size: cover;
+         grid-row:1/2;
+        grid-column:2/3;
+
+}
+
+    #box9{
+        background-image: url(../images/zp-haus.jpg);
+        background-size: cover;
+         grid-row:1/2;
+        grid-column:3/4;
+
+}
+
+  #box5{
         background-image: url(../images/zp-see.jpg);
         background-size: cover;
          grid-row:1/2;
@@ -1811,6 +1858,56 @@ textarea.form-control {
         margin:auto;
 }
 
+.mob-view{
+    display:none;
+
+
+}
+
+#doos1{
+    background-image: url(../images/schlafzimmer1.jpg);
+    background-size: cover;
+    background-color: aqua;
+    grid-column:1/2;
+    grid-row: 1/9;
+    border: solid 5px lightgray;
+
+}
+
+#doos2{
+    background-color: white;
+    grid-column:1/2;
+    grid-row: 9/15;
+
+}
+#doos3{
+    background-image: url(../images/schlafzimmer3.jpg);
+    background-size: cover;
+    background-color: green;
+    grid-column:2/3;
+    grid-row: 1/8;
+
+}
+#doos4{
+    background-image: url(../images/sniadanie.jpg);
+    background-size: cover;
+    background-color: blue;
+    grid-column:2/3;
+    grid-row: 9/15;
+
+}
+
+.room-text a{
+    padding:30px !important;
+    
+}
+
+.ion-ios-people-outline,
+.ion-ios-crop{
+
+font-size:25px;
+}
+
  @media (max-width: 500px) {
     
         .grid-hero {
@@ -1820,17 +1917,73 @@ textarea.form-control {
   place-items: start;
 }
      #box4{
-         grid-row:1/2;
-        grid-column:1/2;
+         grid-row:1/4;
+        grid-column:1/6;
 }
      #box5{
-         grid-row:2/3;
-        grid-column:1/2;
+         grid-row:4/7;
+        grid-column:1/6;
 }
      #box6{
-         grid-row:3/4;
-        grid-column:1/2;
+         grid-row:7/10;
+        grid-column:1/6;
 }
+     
+     .grid-hero{
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            
 }
+        .pc-view{
+    display:none;
+
+
+}
+     
+     .mob-view{
+    visibility:visible;
+
+
+}
+ .grid-featured-rooms{
+display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat( 26, minmax(50px, 1fr) );
+  padding-left:15px;
+  padding-right:15px;
+  
+ 
+
+}
+
+ #doos1{
+    background-image: url(../images/img_1.jpg);
+    background-size: cover;
+    background-color: aqua;
+    grid-column:1/2;
+    grid-row: 1/8;
+
+}
+
+#doos2{
+    background-color: white;
+    grid-column:1/2;
+    grid-row: 8/14;
+
+}
+#doos3{
+    background-color: green;
+    grid-column:1/2;
+    grid-row: 14/20;
+
+}
+#doos4{
+    background-color: blue;
+    grid-column:1/2;
+    grid-row: 20/26;
+
+}      
+}
+
 
     
