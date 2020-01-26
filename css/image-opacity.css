@@ -1,0 +1,36 @@
+/*
+
+div {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+}
+
+div::after {
+  content: "";
+  background: url(images/grassland.jpg);
+    background-size:cover;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+*/
+
+
+.site-hero::after {
+  content: "";
+  background: url(../images/grassland.jpg);
+    background-size:cover;
+  opacity: 0.35;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+    z-index: -1;   }
