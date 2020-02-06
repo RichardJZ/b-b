@@ -1679,7 +1679,7 @@ textarea.form-control {
         border:solid 5px lightgray;}
     
 
-    @media (max-width: 500px) {
+    @media (max-width: 768px) {
     
         
     .section1{
@@ -2243,7 +2243,7 @@ display: grid;
 font-size:25px;
 }
 
- @media (max-width: 500px) {
+ @media (max-width: 768px) {
     
         .grid-hero {
   display: -ms-grid;
