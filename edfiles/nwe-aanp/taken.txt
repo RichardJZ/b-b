@@ -1,0 +1,58 @@
+mobile view:
+
+
+3 fotoos  dimensies aanpassen
+
+vh van achtergrondfoto aanpassen
+
+intro text plaatsing aanpassen
+
+.container--hero-images {
+    width: 67%;
+    margin: 90px auto;
+
+}
+
+.site-hero {
+    background-size: cover;
+    background-position: center center;
+    min-height: 750px;
+    height: 140vh;
+}
+
+.grid-hero {
+    -ms-grid-columns: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.container--hero-images {
+    margin-bottom: 500px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1.hero-intro  {
+    margin-top: -18%;
+    margin-bottom: 0.5rem;
+}
+
+
+intro text aansluiten met hero
+
+.intro-text {
+    margin-top: 0px;
+}
+
+kleur en font-size bovenste regel aanpassen
+
+heading-wrap .sub-heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: 
+    #000;
+    font-family: "Rubik", arial, sans-serif;
+}
